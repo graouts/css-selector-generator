@@ -1,26 +1,21 @@
-CSS Selector Generator
-======================
+# css-selector-generator
 
-JavaScript object that creates unique CSS selector for given element.
+A JavaScript utility to generate a unique CSS selector for any element in a DOM tree.
 
-It should work fine in any modern browser. It has no external dependencies.
+## Installation
 
-How to use
-----------
+  Install with [component](http://component.io):
 
-TODO
+    $ component install graouts/css-selector-generator
 
-Bug reports, feature requests and contact
------------------------------------------
+## Usage
 
-If you found any bugs, if you have feature requests or any questions, please, either [file an issue at GitHub][1] or send me an e-mail at [riki@fczbkk.com][2]
+```javascript
+var generator = require("css-selector-generator");
 
-License
--------
+generator(document.body); // -> "body"
+```
 
-CSS Selector Generator is published under the [UNLICENSE license][3]. Feel free to use it in any way.
+## Authors
 
-
-  [1]: https://github.com/fczbkk/css-selector-generator/issues
-  [2]: mailto:riki@fczbkk.com?subject=CSSSelectorGenerator
-  [3]: https://github.com/fczbkk/css-selector-generator/blob/master/UNLICENSE
+This project is a fork of [fczbkk/css-selector-generator](https://github.com/fczbkk/css-selector-generator), originally created by [Riki Fridrich](http://fczbkk.com), maintained by [Antoine Quint](https://github.com/graouts/).
