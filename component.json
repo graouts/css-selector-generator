@@ -1,0 +1,11 @@
+{
+    "name": "css-selector-generator",
+    "repo": "graouts/css-selector-generator",
+    "description": "Utility to generate a unique CSS selector for a given element",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts" : [
+        "index.js"
+    ]
+}
