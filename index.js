@@ -103,7 +103,7 @@ function uniqueSelector(element)
 
 module.exports = function(element)
 {
-    if (!element.parentNode)
+    if (!element || !element.parentNode)
         return;
 
     var selectors = [];
